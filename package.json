@@ -1,0 +1,24 @@
+{
+  "name": "sebalogin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianmoralesaroca/sebalogin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebastianmoralesaroca/sebalogin/issues"
+  },
+  "homepage": "https://github.com/sebastianmoralesaroca/sebalogin#readme",
+  "dependencies": {
+    "sass": "^1.61.0",
+    "typescript": "^5.0.4"
+  }
+}

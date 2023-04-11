@@ -1,0 +1,9 @@
+.body .contPrincipal .cont2 {
+  width: 500px;
+  height: 500px;
+  background-color: antiquewhite;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[4];
+  grid-template-rows: repeat(4, 1fr);
+}
