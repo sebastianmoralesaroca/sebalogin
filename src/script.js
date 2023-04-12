@@ -80,7 +80,15 @@ signIn.addEventListener('click', () => {
     
     btnIn.addEventListener("click", () => {
         if (userIn.value === userUp.value || passwordIn === passwordUp1 || passwordIn === passwordUp2) {
-            alert("Hello " + userIn.value + ", Welcome!") ;
+            cont2.removeChild(userIn) ;
+            cont2.removeChild(passwordIn) ;
+            cont2.removeChild(btnIn) ;
+            const welcome = document.createElement('h1');
+            cont2.appendChild(welcome);
+            welcome.id = 'welcome';
+            welcome.innerHTML = "Welcome " + userIn.value ;
+            welcome.style = ''
+
         } else {
             alert("You user name and your password do not match with a user register.");
         }
