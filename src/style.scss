@@ -1,19 +1,81 @@
 .body {
+    background-image: linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)
+  ), url(../public/fondo.jpg);
+
     .contPrincipal {
+        background-color: #212121;
+        width: 600px;
+        margin: auto;
+        margin-top: 60px;
+        border: none;
+        border-radius: 20px;
+
         .cont1 {
-            .signIn {
-                
+            padding-top: 30px;
+            text-align: center;
+
+            .spotify {
+                display: inline-block;
+                margin: auto;
+                width: 50px;
+                height: 50px;
+                vertical-align:sub;
             }
+
+            .title {
+                display: inline-block;
+                font-family:sans-serif;
+                font-size: 40px;
+                font-weight: 600;
+                color: white;
+            }
+            .span {
+                height: 100px;
+            }
+
+            .signIn {
+                font-family: sans-serif;
+                font-size: 20px;
+                font-weight: 500;
+                color: whitesmoke;
+                background: transparent;
+                border: none;
+                border-radius: none;
+                margin-right: 25px;
+                }
+            }
+
             .signUp {
-                
+                font-family: sans-serif;
+                font-size: 20px;
+                font-weight: 500;
+                color: whitesmoke;
+                background: transparent;
+                border: none;
+                border-radius: none;
+                margin-left: 25px;
             }
         }
+
         .cont2 {
-            width: 500px ;
-            height: 500px ;
-            background-color: antiquewhite;
+            width: 385px ;
+            height: 235px ;
+            background: transparent;
             display: grid ;
             grid-template-rows: repeat(4, 1fr);
+            grid-gap: 15px;
+            margin: auto;
+            margin-top: 40px;
+            padding-bottom: 20px;
         }
+        .text {
+            font-family: sans-serif;
+            font-size: 13px;
+            font-weight: 400;
+            color: whitesmoke;
+            text-align: center;
+            padding-bottom: 80px;
     }
-}
+    }
